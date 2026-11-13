@@ -106,6 +106,15 @@ Download the datasets from Kaggle and keep them outside the Git repository. The 
 /kaggle/input/datasets/harigopig/atlasf/FracAtlas
 ```
 
+Dataset Download Links
+
+HeatAgent uses the following publicly available research datasets:
+
+1. GRAZPEDWRI-DX: "Download from Figshare" `https://figshare.com/articles/dataset/GRAZPEDWRI-DX/14825193`
+2. FracAtlas: "Download from Figshare" `https://figshare.com/articles/dataset/The_dataset/22363012`
+
+Download both datasets and extract them into the "data/raw/" directory before running the project locally.
+
 The GRAZ manifest is split by patient using `StratifiedGroupKFold`, with patient and paired-view leakage checks. FracAtlas does not provide patient IDs in the notebook workflow; its split is image-level, which is a limitation.
 
 See [`data/README.md`](data/README.md) for setup notes.
