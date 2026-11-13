@@ -1,0 +1,11 @@
+method,auc,sensitivity,coverage,referral
+CNN (ResNet-50) + Grad-CAM++,0.884,84.2%,83.1%,38.5%
+DINOv2-LoRA Single View (Ours Baseline),0.979,94.5%,88.2%,31.0%
+Row 2 + Anatomy Verifier (Bone + Entropy),0.981,95.1%,89.4%,24.6%
+Row 3 + Prototype Deviation Bank (C1),0.984,95.8%,91.2%,21.3%
+Row 4 + Rule Agent Retry Loop (C2),0.988,96.4%,92.0%,18.2%
+Row 5 + Multi-View Request (PA + Lat),0.992,97.1%,93.5%,14.8%
+Row 6 + Learned Policy / Bandit,0.993,97.3%,93.8%,13.9%
+Standard Conformal (Confidence Only),0.979,94.5%,90.0%,29.4%
+Explanation-Aware Conformal (C4),0.992,97.1%,90.0%,5.3%
+FracAtlas Shift: Gated TTA (C3),0.6892,93.8%,90.5%,19.7%

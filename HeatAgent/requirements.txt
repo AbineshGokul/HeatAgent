@@ -1,0 +1,12 @@
+# Install a CUDA-compatible torch/torchvision build from https://pytorch.org/get-started/locally/ first.
+numpy>=1.24
+pandas>=2.0
+opencv-python>=4.8
+Pillow>=10.0
+matplotlib>=3.7
+scikit-learn>=1.3
+timm>=0.9
+tqdm>=4.66
+PyYAML>=6.0
+jupyter>=1.0
+kagglehub>=0.2
